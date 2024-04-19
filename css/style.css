@@ -1,0 +1,74 @@
+body{
+  margin: auto;
+  background-image: none;
+  background-color: black;
+}
+.header h1{
+  padding: 20px;
+  text-align: center;
+  font-family: fantasy;
+  color: #04AA6D;
+
+}
+
+.texto{
+  text-align: center;
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: wheat;
+}
+
+
+/*Barra de navegação*/
+
+.topnav {
+    background-color: #f1ec92;
+    overflow: hidden;
+  }
+  
+  /* Estilo dos links dentro da barra de navegacao */
+  .topnav a {
+    float: left;
+    color: #020101;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Modifica a cor do link quando o mouse está em cima */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Adiciona cor ao  link ativo/atual */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  /*Container com imagens*/
+  .container{
+    width: 50%;
+    height: 200px;
+    padding-top: 50px;
+    margin: auto;
+    display: flex;
+    gap: 5px;
+  }
+
+  .container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-out 1s;
+  }
+
+  .container img:hover{
+    width: 60%;
+
+  }
